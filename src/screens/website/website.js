@@ -9,9 +9,7 @@ export function Website({ route }) {
   return (
     <>
       <Container>
-        <View>
-          <WebView source={{ uri: url }} />
-        </View>
+        <WebView source={{ uri: url }} />
       </Container>
     </>
   );
